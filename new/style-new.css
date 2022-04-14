@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #09000D;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    flex: 1;
+    text-align: left;
+}
+.header-logo ul li{
+    list-style: none;
+    display: inline-block;
+    /* padding: 8px 12px; */
+    position: relative;
+}
+.header-logo a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.logo-name{
+    color: #9CE37D;
+    transition: 0.5s;
+}
+.logo-name:hover{
+    color: #FC731E;
+}
+.logo-network{
+    color: #FC731E;
+    transition: 0.5s;
+}
+.logo-network:hover{
+    color: #9CE37D;
+}
