@@ -42,3 +42,31 @@ nav{
 .logo-network:hover{
     color: #9CE37D;
 }
+.header-links{
+    flex: 1;
+    text-align: right;
+    padding-left: 10%;
+}
+.header-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.header-links ul li a{
+    color: #9CE37D;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #FC731E;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.header-links ul li:hover::after{
+    width: 100%;
+}
