@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 
 <html lang="en">
+    <!-- de-DE -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Damon Leven's personal website.">
+        <meta name="theme-color" content="#FC731E">
         <title>Damon Leven</title>
         <link rel="stylesheet" href="/style.css">
+        <link rel="icon" href="/icons/favicon-512.png" sizes="any">
+        <link rel="icon" href="/images/dleven.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="/icons/favicon-512.png">
+        <link rel="manifest" href="/manifest.json">
     </head>
 
     <!-- header part -->
@@ -27,7 +33,7 @@
 
         <div class="header-content">
             <img src="/images/dleven.svg" class="header-image" alt="Logo for the front-page">
-            <h1>Damon Leven</p>
+            <h1>Damon Leven</h1>
             <p>Programming | DevOps | Automation</p>
             <a href="https://github.com/mcwertgaming" target="_blank" title="Damon's profile on GitHub"><img src="/logos/github.svg" class="social-logo" alt="logo of github.com"></a>
             <!-- <a href="https://gitlab.com/dleven" target="_blank" title="Damon's profile on Gitlab"><img src="/logos/gitlab.svg" class="social-logo" alt="logo of gitlab.com"></a> -->
@@ -50,20 +56,41 @@
             <a href="#" target="_blank" title="Markdown project website"><img src="/languages/markdown.svg" class="social-logo" alt="Markdown logo"></a>
             <a href="#" target="_blank" title="MongoDB website"><img src="/languages/mongodb.svg" class="social-logo" alt="MongoDB logo"></a> 
             <a href="#" target="_blank" title="PostgreSQL website"><img src="/languages/postgresql.svg" class="social-logo" alt="PostgreSQL logo"></a>
-            
             <a href="#" target="_blank" title="CSS3 Website"><img src="/languages/css3.svg" class="social-logo" alt="CSS3 logo"></a>
             <a href="#" target="_blank" title="HTML5 website"><img src="/languages/html5.svg" class="social-logo" alt="HTML5 logo"></a>
             <a href="#" target="_blank" title="Javascript website"><img src="/languages/js.svg" class="social-logo" alt="Javascript logo"></a>
-            
+           <a href="#" target="_blank" title="Java website"><img src="/languages/java.svg" class="social-logo" alt="Java logo"></a>
         </div>
     </section>
 
     <!-- projects section -->
-    ,<section class="projects">
-        <div>
-            <!-- XXX -->
+    <section class="projects">
+        <div class="projects-showcase">
+            <h1>My Projects</h1>
+            <a href="#" target="_blank" title="Foxspace website"><img src="projects/foxspace.svg" alt="foxspace github project banner"></a>
+            <a href="#" target="_blank" title="Snek website"><img src="projects/snek.svg" alt="snek github project banner"></a>
+            <a href="#" target="_blank" title="CPP-Terminal website"><img src="projects/cpp-terminal.svg" alt="cpp-terminal github project banner"></a>
         </div>
     </section>
 
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-info">
+            <div class="footer-left">Part of the <a href="#" title="Leven.dev">leven.dev</a> network.</div>
+            <div class="footer-right">Licensed under <a href="#" title="License information">MIT</a> on <a href="#" title="GitHub repository">GitHub</a>.</div>
+        </div>
+        <div class="footer-middle">Copyright (c) 2022: Damon Leven.</div>
+    </footer>
+
+    <!-- setup service-worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register(
+                'service-worker.js'
+            ).then(function () {
+                console.log('Registration Successful');
+            });
+        }
+    </script>
 
 </html>

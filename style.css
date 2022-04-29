@@ -43,7 +43,7 @@ nav{
 .header-links{
     flex: 1;
     text-align: right;
-    padding-left: 10%;
+    /*padding-left: 10%;*/
 }
 .header-links ul li{
     list-style: none;
@@ -54,7 +54,7 @@ nav{
 .header-links ul li a{
     color: #9CE37D;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     transition: 0.5s;
 }
 .header-links ul li a:hover{
@@ -78,11 +78,11 @@ nav{
 }
 .header-content h1{
     font-size: 50px;
-    color: #9CE37D;
+    color: #FC731E;
 }
 .header-content p{
     font-size: 25px;
-    color: #FC731E;
+    color: #9CE37D;
 }
 .social-logo{
     filter: invert(91%) sepia(15%) saturate(1171%) hue-rotate(45deg) brightness(92%) contrast(93%);
@@ -100,7 +100,7 @@ nav{
 }
 
 /* switch header on a width of 773 */
-@media (max-width: 773px) {
+@media (max-width: 822px) {
     .logo-network{
         color: #FC731E;
     }
@@ -109,7 +109,7 @@ nav{
     }
     .header-links{
         text-align: center;
-        padding-left: 0%;
+        padding-left: 0;
     }
     .nav-bar{
         flex-direction: column;
@@ -130,7 +130,7 @@ nav{
 /* about section */
 .about{
     /* height: 10em; */
-    background-color: gray;
+    background-color: #09000D;
     padding: 6% 10%;
     /* padding-left: 5%; */
 }
@@ -138,10 +138,63 @@ nav{
     text-align: center;
 }
 .about-text h1{
-    font-size: 30px;
+    font-size: 50px;
     color: #FC731E;
 }
 .about-text p{
     font-size: 25px;
     color: #9CE37D;
 }
+
+/* projects section */
+.projects{
+    background-color: #09000D;
+    padding: 6% 10%;
+}
+.projects-showcase{
+    text-align: center;
+}
+.projects-showcase h1{
+    color: #FC731E;
+    font-size: 50px;
+}
+.projects-showcase img{
+    /*height: 300px;*/
+    max-width: 600px;
+    width: 90%;
+}
+/*footer*/
+.footer{
+    background-color: #09000D;
+    text-align: center;
+    font-size: 15px;
+    color: #9CE37D;
+    padding: 2% 10% 1%;
+
+    border-top: 1px dashed #FC731E;
+}
+.footer a{
+    color: #FC731E;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #9CE37D;
+    transition: 0.5s;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3vh;
+}
+
+/*
+.footer-left{
+    text-align: left;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-middle{
+    text-align: center;
+}
+ */
