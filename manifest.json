@@ -1,0 +1,13 @@
+{
+  "icons": [
+    { "src": "/icons/favicon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icons/favicon-512.png", "type": "image/png", "sizes": "512x512", "purpose": "any maskable" }
+  ],
+  "start_url": "/",
+  "name": "Damon Leven - portfolio",
+  "short_name": "Damon Leven",
+  "display": "standalone",
+  "theme_color": "#FC731E",
+  "background_color": "#09000D",
+  "scope": "/"
+}
