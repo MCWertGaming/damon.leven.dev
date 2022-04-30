@@ -43,7 +43,6 @@ nav{
 .header-links{
     flex: 1;
     text-align: right;
-    /*padding-left: 10%;*/
 }
 .header-links ul li{
     list-style: none;
@@ -98,7 +97,6 @@ nav{
 .social-logo:hover{
     filter: invert(52%) sepia(92%) saturate(1888%) hue-rotate(345deg) brightness(98%) contrast(102%);
 }
-
 /* switch header on a width of 773 */
 @media (max-width: 822px) {
     .logo-network{
@@ -126,13 +124,10 @@ nav{
         max-height: 300px;
     }
 }
-
 /* about section */
 .about{
-    /* height: 10em; */
     background-color: #09000D;
     padding: 6% 10%;
-    /* padding-left: 5%; */
 }
 .about-text{
     text-align: center;
@@ -145,7 +140,6 @@ nav{
     font-size: 25px;
     color: #9CE37D;
 }
-
 /* projects section */
 .projects{
     background-color: #09000D;
@@ -159,7 +153,6 @@ nav{
     font-size: 50px;
 }
 .projects-showcase img{
-    /*height: 300px;*/
     max-width: 600px;
     width: 90%;
 }
@@ -170,7 +163,6 @@ nav{
     font-size: 15px;
     color: #9CE37D;
     padding: 2% 10% 1%;
-
     border-top: 1px dashed #FC731E;
 }
 .footer a{
@@ -186,15 +178,3 @@ nav{
     justify-content: space-between;
     padding-bottom: 3vh;
 }
-
-/*
-.footer-left{
-    text-align: left;
-}
-.footer-right{
-    text-align: right;
-}
-.footer-middle{
-    text-align: center;
-}
- */
