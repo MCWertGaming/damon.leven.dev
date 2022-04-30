@@ -156,6 +156,9 @@ nav{
     max-width: 600px;
     width: 90%;
 }
+.projects-showcase img:hover{
+    transform: scale(1.1);
+}
 /*footer*/
 .footer{
     background-color: #09000D;
