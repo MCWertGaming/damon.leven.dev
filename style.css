@@ -27,18 +27,18 @@ nav{
     font-size: 30px;
 }
 .logo-name{
-    color: #FC731E;
+    color: #FF570A;
     transition: 0.5s;
 }
 .logo-name:hover{
-    color: #9CE37D;
+    color: #3772FF;
 }
 .logo-network{
-    color: #9CE37D;
+    color: #3772FF;
     transition: 0.5s;
 }
 .logo-network:hover{
-    color: #FC731E;
+    color: #FF570A;
 }
 .header-links{
     flex: 1;
@@ -51,13 +51,13 @@ nav{
     position: relative;
 }
 .header-links ul li a{
-    color: #9CE37D;
+    color: #3772FF;
     text-decoration: none;
     font-size: 25px;
     transition: 0.5s;
 }
 .header-links ul li a:hover{
-    color: #FC731E;
+    color: #FF570A;
 }
 .header-content{
     position: absolute;
@@ -65,6 +65,7 @@ nav{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    min-width: 299px;
 }
 .header-image{
     display: block;
@@ -77,14 +78,14 @@ nav{
 }
 .header-content h1{
     font-size: 50px;
-    color: #FC731E;
+    color: #FF570A;
 }
 .header-content p{
     font-size: 25px;
-    color: #9CE37D;
+    color: #3772FF;
 }
 .social-logo{
-    filter: invert(91%) sepia(15%) saturate(1171%) hue-rotate(45deg) brightness(92%) contrast(93%);
+    filter: invert(42%) sepia(79%) saturate(3821%) hue-rotate(212deg) brightness(100%) contrast(102%);
     width: 50px;
     height: auto;
     padding: 3% 3%;
@@ -95,15 +96,15 @@ nav{
     padding: 3% 3%;
 }
 .social-logo:hover{
-    filter: invert(52%) sepia(92%) saturate(1888%) hue-rotate(345deg) brightness(98%) contrast(102%);
+    filter: invert(44%) sepia(54%) saturate(4110%) hue-rotate(354deg) brightness(99%) contrast(104%);
 }
 /* switch header on a width of 773 */
 @media (max-width: 822px) {
     .logo-network{
-        color: #FC731E;
+        color: #FF570A;
     }
     .logo-network:hover{
-        color: #9CE37D;
+        color: #3772FF;
     }
     .header-links{
         text-align: center;
@@ -118,10 +119,21 @@ nav{
         width: 25px;
     }
 }
+@media(max-width: 410px) {
+    .header-content{
+        min-width: none;
+    }
+}
 @media (max-height: 690px){
     .header-image{
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+@media (max-height: 590px){
+    .header-image{
+        max-width: 100px;
+        max-height: 100px;
     }
 }
 /* about section */
@@ -134,11 +146,11 @@ nav{
 }
 .about-text h1{
     font-size: 50px;
-    color: #FC731E;
+    color: #FF570A;
 }
 .about-text p{
     font-size: 25px;
-    color: #9CE37D;
+    color: #3772FF;
 }
 /* projects section */
 .projects{
@@ -149,7 +161,7 @@ nav{
     text-align: center;
 }
 .projects-showcase h1{
-    color: #FC731E;
+    color: #FF570A;
     font-size: 50px;
 }
 .projects-showcase img{
@@ -164,16 +176,16 @@ nav{
     background-color: #09000D;
     text-align: center;
     font-size: 15px;
-    color: #9CE37D;
+    color: #3772FF;
     padding: 2% 10% 1%;
-    border-top: 1px dashed #FC731E;
+    border-top: 1px dashed #FF570A;
 }
 .footer a{
-    color: #FC731E;
+    color: #FF570A;
     text-decoration: none;
 }
 .footer a:hover{
-    color: #9CE37D;
+    color: #3772FF;
     transition: 0.5s;
 }
 .footer-info{
